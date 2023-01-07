@@ -9,7 +9,7 @@ try:
 except:
     print('Unable to connect to DB, Pls verify credentials')
     
-print('DB Connected - {}'.format(DB.is_connected())
+print('DB Connected - {}'.format(DB.is_connected()))
 
 
 create_query = '''CREATE DATABASE IF NOT EXISTS FSDS_DB'''
